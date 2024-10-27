@@ -6,7 +6,7 @@ namespace Tyuiu.SanzyapovOD.Sprint3.Task0.V29.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double sum = 0;
-            int i;
+            double i;
             for (i = startValue; i <= stopValue; i++)
             {
                 sum += (Math.Pow(value, 2 * i) + (1 / (i + 1))) * Math.Cos(value);
