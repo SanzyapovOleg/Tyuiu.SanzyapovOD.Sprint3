@@ -23,8 +23,8 @@ namespace Tyuiu.SanzyapovOD.Sprint3.Task5.V23
             Console.WriteLine("***************************************************************************");
             int x = 2;
             int startValue1 = 1;
-            int stopValue1 = 3;
             int startValue2 = 1;
+            int stopValue1 = 3;
             int stopValue2 = 10;
             Console.WriteLine("Переменная Х = " + x);
             Console.WriteLine("Старт шага первой суммы ряда = " + startValue1);

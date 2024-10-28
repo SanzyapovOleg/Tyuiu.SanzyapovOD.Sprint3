@@ -7,11 +7,11 @@ namespace Tyuiu.SanzyapovOD.Sprint3.Task5.V23.Lib
         {
             double res = 0;
             double i, j;
-            for (i = startValue1; i <= startValue1; i++)
+            for (i = startValue1; i <= stopValue1; i++)
             {
-                for (j = startValue2; j <= startValue2; j++)
+                for (j = startValue2; j <= stopValue2; j++)
                 {
-                    res = res + ((Math.Pow(x, j) + 2) * (Math.Cos(j)));
+                    res += ((Math.Pow(x, j) + 2) * (Math.Cos(j)));
                 }
             }
             return Math.Round(res, 3);
